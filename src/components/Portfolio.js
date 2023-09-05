@@ -148,7 +148,7 @@ const PortfolioCard = ({
     return (
         <>
             <div
-                className={`w-full px-4 mx-auto md:w-1/2 xl:w-1/3 ${showCard === "all" || showCard === category.toLowerCase()
+                className={`w-full px-4 mx-auto md:w-1/2 xl:w-1/2 ${showCard === "all" || showCard === category.toLowerCase()
                     ? "block"
                     : "hidden"
                     }`}

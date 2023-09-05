@@ -90,7 +90,7 @@ const Testimonial = () => {
                             <div className="flex items-center gap-4">
                                 <img
                                     alt="Man"
-                                    src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                                    src="https://static.vecteezy.com/system/resources/previews/002/002/427/original/man-avatar-character-isolated-icon-free-vector.jpg"
                                     className="h-16 w-16 rounded-full object-cover"
                                 />
 
@@ -161,7 +161,7 @@ const Testimonial = () => {
                             <div className="flex items-center gap-4">
                                 <img
                                     alt="Man"
-                                    src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                                    src="https://img.freepik.com/premium-vector/young-smiling-man-avatar-man-with-brown-beard-mustache-hair-wearing-yellow-sweater-sweatshirt-3d-vector-people-character-illustration-cartoon-minimal-style_365941-860.jpg"
                                     className="h-16 w-16 rounded-full object-cover"
                                 />
 

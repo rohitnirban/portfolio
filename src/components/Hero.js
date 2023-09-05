@@ -8,7 +8,7 @@ const Hero = () => {
         return (
             <>
                 <a href={href} className="flex w-full items-center justify-center">
-                    <img src={imgSrc} alt="brand" className="w-full h-10" />
+                    <img src={imgSrc} alt="brand" className="w-full h-10 object-contain" />
                 </a>
             </>
         );
@@ -16,7 +16,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className="relative bg-white w-[82%] mx-auto pt-[120px] pb-[110px] lg:pt-[150px]" id='home'>
+            <section className="relative bg-white w-[82%] mx-auto pt-[120px] pb-[110px] lg:pt-[60px]" id='home'>
                 <div className="container">
                     <div className="flex flex-wrap -mx-4">
                         <div className="w-full px-4 lg:w-5/12 h-full my-auto">
@@ -30,8 +30,8 @@ const Hero = () => {
                                     technologies and leverage my skills to <span className='text-blue-600'>build robust web applications</span>
                                 </p>
                                 <a
-                                    href="/#"
-                                    className="inline-flex items-center justify-center text-center text-body-color hover:text-primary"
+                                    href="https://www.fiverr.com/rohityadav494"
+                                    className="inline-flex items-center justify-center text-center text-body-color hover:text-primary" target='_blank' rel="noreferrer"
                                 >
                                     <button className="w-full items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 duration-300 text-center">Hire Me</button>
                                 </a>
@@ -45,14 +45,14 @@ const Hero = () => {
                                     <div className="flex items-center space-x-4">
                                         {/* <a href='/#' className='text-white text-xl bg-black p-4 rounded-xl'>Uni.Pitch</a> */}
                                         <SingleImage
-                                            href="/#"
+                                            href="https://www.unipitch.com"
                                             imgSrc={unipitch}
                                         />
                                         <SingleImage
-                                            href="/#"
-                                            imgSrc="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
+                                            href="https://www.riceley.com/"
+                                            imgSrc="https://cdn.dotpe.in/logo/15579/RICELEY_STORE_LOGO_DOTPE.png"
                                         />
-                                        <a href='/#' className='text-white text-lg bg-black p-3 rounded-xl'>Digi&nbsp;Dhobi</a>
+                                        <a href='https://www.digi-dhobi.com/' className='text-white text-lg bg-black p-3 rounded-xl' target='_blank' rel="noreferrer">Digi&nbsp;Dhobi</a>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const Hero = () => {
                                     <img
                                         src={hero}
                                         alt="hero"
-                                        className=" max-w-full lg:ml-auto rounded-tl-[2rem]"
+                                        className="max-w-full lg:max-w-[35rem] lg:ml-auto rounded-tl-[2rem]"
                                     />
                                     <span className="absolute -left-8 -bottom-8 z-[-1]">
                                         <svg

@@ -1,5 +1,4 @@
 import React from 'react'
-import sourav from "../images/sourav.webp"
 
 const Testimonial = () => {
     return (
@@ -17,9 +16,9 @@ const Testimonial = () => {
                     <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
                         <blockquote className="rounded-lg bg-gray-100 p-8">
                             <div className="flex items-center gap-4">
-                                <img
+                            <img
                                     alt="Man"
-                                    src={sourav}
+                                    src="https://static.vecteezy.com/system/resources/previews/024/183/502/non_2x/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg"
                                     className="h-16 w-16 rounded-full object-cover"
                                 />
 
@@ -77,7 +76,7 @@ const Testimonial = () => {
                                         </svg>
                                     </div>
 
-                                    <p className="mt-1 text-lg font-medium text-gray-700">Sourav Verma</p>
+                                    <p className="mt-1 text-lg font-medium text-gray-700">Abhilaksh Arora</p>
                                 </div>
                             </div>
 
@@ -219,7 +218,7 @@ const Testimonial = () => {
                                         </svg>
                                     </div>
 
-                                    <p className="mt-1 text-lg font-medium text-gray-700">Mridul Jadam</p>
+                                    <p className="mt-1 text-lg font-medium text-gray-700">Aakash</p>
                                 </div>
                             </div>
 

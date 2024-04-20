@@ -1,13 +1,14 @@
 import React from 'react'
-import unipitch from "../images/unipitch.webp"
+import easyproperti from "../images/logo-light.png"
 import hero from "../images/hero.webp"
+import confchair from "../images/logo1.png"
 
 const Hero = () => {
 
     const SingleImage = ({ href, imgSrc }) => {
         return (
             <>
-                <a href={href} className="flex w-full items-center justify-center">
+                <a href={href} target='_blank' rel="noreferrer" className="flex w-full items-center justify-center bg-black py-2 px-4 rounded-xl">
                     <img src={imgSrc} alt="brand" className="w-full h-10 object-contain" />
                 </a>
             </>
@@ -43,16 +44,18 @@ const Hero = () => {
                                     </h6>
 
                                     <div className="flex items-center space-x-4">
-                                        {/* <a href='/#' className='text-white text-xl bg-black p-4 rounded-xl'>Uni.Pitch</a> */}
                                         <SingleImage
-                                            href="https://www.unipitch.com"
-                                            imgSrc={unipitch}
+                                            href="https://www.confchair.com"
+                                            imgSrc={confchair}
                                         />
                                         <SingleImage
                                             href="https://www.riceley.com/"
                                             imgSrc="https://cdn.dotpe.in/logo/15579/RICELEY_STORE_LOGO_DOTPE.png"
                                         />
-                                        <a href='https://www.digi-dhobi.com/' className='text-white text-lg bg-black p-3 rounded-xl' target='_blank' rel="noreferrer">Digi&nbsp;Dhobi</a>
+                                        <SingleImage
+                                            href="https://www.easyproperti.com/"
+                                            imgSrc={easyproperti}
+                                        />
                                     </div>
                                 </div>
                             </div>

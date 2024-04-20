@@ -20,3 +20,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.overflow-y-scroll:hover img {
+  animation: scrollAnimation 5s linear infinite;
+}
+
+
+

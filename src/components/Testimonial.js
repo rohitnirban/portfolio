@@ -7,7 +7,7 @@ const Testimonial = () => {
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
                     <div className="text-center mb-20">
                         <h1 className="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Reviews From Customers</h1>
-                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">L'informatique est vaste et les langages naissent presque à tout moment, je fais tout mon possible pour être </p>
+                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Here are some words from my customers</p>
                         <div className="flex mt-6 justify-center">
                             <div className="w-16 h-1 rounded-full bg-blue-700 inline-flex"></div>
                         </div>

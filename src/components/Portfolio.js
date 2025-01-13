@@ -73,7 +73,7 @@ const Portfolio = () => {
                             ImageHref={urlhub}
                             category="Full Stack"
                             title="UrlHub"
-                            link="https://urlhub.in"
+                            link="https://urhb.in"
                             showCard={showCard}
                         />
                         <PortfolioCard

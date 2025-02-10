@@ -5,6 +5,8 @@ import easyproperti from '../images/Easy-Properti.png'
 import blog from '../images/Hunting-Coder-A-Hunt-for-Coders.png'
 import urlhub from '../images/urlhub.png'
 import resume from '../images/resume.webp'
+import cuims from '../images/cuims.webp'
+import ssid from '../images/ssid.webp'
 
 const Portfolio = () => {
     const [showCard, setShowCard] = useState("all");
@@ -56,13 +58,13 @@ const Portfolio = () => {
                                 </li>
                                 <li className="mb-1">
                                     <button
-                                        onClick={() => handleProject("front end")}
+                                        onClick={() => handleProject("npm package")}
                                         className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold duration-300 transition md:py-3 lg:px-8 ${showCard === "front end"
                                             ? "activeClasses bg-primary text-blue-700"
                                             : "inactiveClasses"
                                             }`}
                                     >
-                                        Front End Projects
+                                        Other Projects
                                     </button>
                                 </li>
                             </ul>
@@ -74,6 +76,20 @@ const Portfolio = () => {
                             category="Full Stack"
                             title="UrlHub"
                             link="https://urhb.in"
+                            showCard={showCard}
+                        />
+                        <PortfolioCard
+                            ImageHref={cuims}
+                            category="Chrome Extension"
+                            title="Cuims Auto Login"
+                            link="https://chromewebstore.google.com/detail/cuims-auto-login/cmiceidgkenbhnhpakfkfeaieiaojiih"
+                            showCard={showCard}
+                        />
+                        <PortfolioCard
+                            ImageHref={ssid}
+                            category="NPM Package"
+                            title="SSID"
+                            link="https://www.npmjs.com/package/ssid"
                             showCard={showCard}
                         />
                         <PortfolioCard

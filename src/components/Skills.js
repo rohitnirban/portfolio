@@ -21,7 +21,7 @@ const Skills = () => {
                                     </div>
                                     <div className="flex-grow ">
                                         <h2 className="text-xl title-font font-medium mb-3">Front-End Development</h2>
-                                        <p className="leading-relaxed text-sm text-justify">Proficient Frontend Developer skilled in <span className='text-yellow-500'>HTML, CSS, and JavaScript. Expertise in Bootstrap, Tailwind CSS, and Material UI</span> for crafting responsive, visually appealing, and user-centric web experiences. Let's bring ideas to life!</p>
+                                        <p className="leading-relaxed text-sm text-justify">Proficient Frontend Developer skilled in <span className='text-yellow-500'>HTML, CSS, and JavaScript. Expertise in Bootstrap, Tailwind CSS, Mantine UI and Material UI</span> for crafting responsive, visually appealing, and user-centric web experiences. Let's bring ideas to life!</p>
                                     </div>
                                 </div>
                             </div>

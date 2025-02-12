@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import riceley from '../images/Riceley.png'
 import confchair from '../images/React-App.png'
 import easyproperti from '../images/Easy-Properti.png'
 import blog from '../images/Hunting-Coder-A-Hunt-for-Coders.png'

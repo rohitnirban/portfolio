@@ -30,11 +30,10 @@ const Hero = () => {
                                     innovative web solutions also stay <span className='text-blue-600'>up-to-date</span> with the latest
                                     technologies and leverage my skills to <span className='text-blue-600'>build robust web applications</span>
                                 </p>
-                                <a
-                                    href="https://www.fiverr.com/rohityadav494"
-                                    className="inline-flex items-center justify-center text-center text-body-color hover:text-primary" target='_blank' rel="noreferrer"
+                                <a href="/resume.pdf" target='_blank' rel="noreferrer"
+                                    className="inline-flex items-center justify-center text-center text-body-color hover:text-primary"
                                 >
-                                    <button className="w-full items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 duration-300 text-center">Hire Me</button>
+                                    <button className="w-full items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 duration-300 text-center">Resume</button>
                                 </a>
 
                                 <div className="pt-16 clients">

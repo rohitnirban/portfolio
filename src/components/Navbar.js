@@ -14,8 +14,8 @@ const Navbar = () => {
                     <span className="self-center text-2xl font-semibold whitespace-nowrap">Rohit Yadav</span>
                 </a>
                 <div className="flex md:order-2">
-                    <a href="https://www.fiverr.com/rohityadav494" target='_blank' rel="noreferrer">
-                        <button type='button' className="items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 duration-300 text-center">Hire Me</button>
+                    <a href="/resume.pdf" target='_blank' rel="noreferrer">
+                        <button type='button' className="items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 duration-300 text-center">Resume</button>
                     </a>
                     <button onClick={toggleMenu} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-expanded={isMenuOpen ? 'true' : 'false'}>
                         <span className="sr-only">Open main menu</span>

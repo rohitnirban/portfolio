@@ -1,2 +1,2 @@
-# Personal Portfolio for Rohit Yadav
-[Link to portfolio](https://rohitnirban.vercel.app/)
+# My Personal Portfolio
+[Link to portfolio](https://rohitnirban.com/)
